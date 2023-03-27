@@ -1,0 +1,71 @@
+.section-register{
+    padding-top: 40px;
+    max-width: 100vw;
+    height: calc(100vh - 60px);
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(54, 54, 54);
+}
+
+.register{
+    margin: auto;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    gap: 30px;
+    padding: 20px 30px;
+    box-shadow: 0 0 10px gray;
+
+}
+
+.register input{
+    cursor: pointer;
+    padding: 8px 30px;
+    box-shadow: 0 0 10px gray;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.register button{
+    cursor: pointer;
+    padding: 5px 30px;
+    border: none;
+    box-shadow: 0 0 10px gray;
+    background: -webkit-linear-gradient(to right, #052533, #21677f, #115f80);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #174457, #479cb8, #042d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+button:hover{
+    background: -webkit-linear-gradient(to right, #2e90ba, #16333d, #14536e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #147098, #67bcd8, #136588); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+.link{
+    color: black;
+    text-align: center;
+    box-shadow: 0 0 10px grey;
+    padding: 10px 10px;
+    border-radius: 7px;
+    background: -webkit-linear-gradient(to right, #052533, #21677f, #115f80);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #174457, #479cb8, #042d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+.link:hover{
+    background: -webkit-linear-gradient(to right, #2e90ba, #16333d, #14536e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #147098, #67bcd8, #136588); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+.form-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
